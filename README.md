@@ -1,6 +1,6 @@
 # Detecting phishing websites using a decision tree
 
-This repository is a tutorial explaining how to train a simple decision 
+This repository is a project explaining how to train a decision 
 tree classifier to detect websites that are used for 
 [phishing](https://en.wikipedia.org/wiki/Phishing). Typically, phishing
 websites disguise as trustworthy websites in order to gain the trust
@@ -23,16 +23,6 @@ run:
 ```
 pip install -U scikit-learn
 ```
-
-Once you have installed `scikit-learn`, you can check whether the 
-library is correctly setup by typing the following in a Python shell:
-
-```
-import sklearn
-```
-
-If the command runs with no error, you are ready to train the phishing
-detector!
 
 ## Phishing Website Dataset 
 
